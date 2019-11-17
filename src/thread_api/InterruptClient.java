@@ -29,7 +29,7 @@ public class InterruptClient {
             }
         });
         xiaopang.start();
-        Thread.sleep(1);
+        Thread.sleep(3100);
         xiaopang.interrupt();*/
 
         // 3. Thread.interrupted()获取是否中断的标志，然后置为false
