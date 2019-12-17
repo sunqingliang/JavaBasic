@@ -1,7 +1,7 @@
 package wukong.core_knowledge.thread3_stopThread;
 
 /**
- * 描述：     run方法内没有sleep或wait方法时，停止线程--依靠Thread.currentThread().isInterrupted()
+ * 描述：run方法内没有sleep或wait方法时，停止线程--依靠Thread.currentThread().isInterrupted()
  */
 public class RightWayStopThreadWithoutSleep implements Runnable {
 
@@ -20,7 +20,7 @@ public class RightWayStopThreadWithoutSleep implements Runnable {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(new RightWayStopThreadWithoutSleep());
         thread.start();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         thread.interrupt();
     }
 }

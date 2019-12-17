@@ -1,7 +1,7 @@
 package wukong.core_knowledge.thread3_stopThread;
 
 /**
- * 描述：     run方法内有sleep时，如何中断
+ * 描述：run方法内有sleep时，如何中断
  */
 public class RightWayStopThreadWithSleep implements Runnable {
 
