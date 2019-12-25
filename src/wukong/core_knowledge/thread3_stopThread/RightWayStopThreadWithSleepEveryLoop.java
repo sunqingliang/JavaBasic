@@ -1,7 +1,7 @@
 package wukong.core_knowledge.thread3_stopThread;
 
 /**
- * 描述：     run方法内有sleep并且sleep在while中，直接靠中断抛异常便可退出循环
+ * 描述：run方法内有sleep并且sleep在while中，直接靠中断抛异常便可退出循环
  */
 public class RightWayStopThreadWithSleepEveryLoop implements Runnable {
 
