@@ -5,13 +5,9 @@ package wukong.singleton;
  */
 public enum Singleton8 {
 
-    IINSTANCE;
+    INSTANCE;
 
-//    public Singleton8 getInstance () {
-//        return IINSTANCE;
-//    }
-
-    public void whatever() {
-
+    public void onemethod() {
+        System.out.println("不大明白：" + INSTANCE.toString());
     }
 }
